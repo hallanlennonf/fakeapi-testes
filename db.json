@@ -1,11 +1,67 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "hello"
-      }
+    "status-tournaments": [
+        {
+            "id": 1, 
+            "name": "Inscrições abertas"
+        },
+        {
+            "id": 2, 
+            "name": "Em andamento"
+        },
+        {
+            "id": 3, 
+            "name": "Finalizados"
+        }
     ],
-    "profile": {
-      "name": "typicode"
-    }
+    "teams": [
+        {
+            "id": 1, "name": "Time 1"
+        },
+        {
+            "id": 2, "name": "time 2"
+        },
+        {
+            "id": 3, "name": "Time 3"
+        }
+    ],
+    "games": [
+        {
+            "id": 1, "name": "Free fire"
+        },
+        {
+            "id": 2, "name": "League of legends"
+        },
+        {
+            "id": 3, "name": "CS2"
+        }
+    ],
+    "tournaments": [
+        {
+            "id": 1, "name": "Free fire 1", "jogo": 1, "time": 1, "status": 1, "preco": 10000, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        },
+        {
+            "id": 2, "name": "League of legends 2 ", "jogo": 1, "time": 2, "status": 2, "preco": 20000, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        },
+        {
+            "id": 3, "name": "CS2 3", "jogo": 1, "time": 3, "status": 3, "preco": 30000, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        },
+        {
+            "id": 4, "name": "League of legends 4", "jogo": 1, "time": 1, "status": 1, "preco": 104000, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        },
+        {
+            "id": 5, "name": "CS2 5", "jogo": 1, "time": 1, "status": 3, "preco": 10500, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        },
+        {
+            "id": 6, "name": "League of legends 6", "jogo": 1, "time": 1, "status": 2, "preco": 10500, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        },
+        {
+            "id": 7, "name": "CS2 7", "jogo": 1, "time": 1, "status": 1, "preco": 10500, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        },
+        {
+            "id": 8, "name": "League of legends 8", "jogo": 1, "time": 1, "status": 3, "preco": 10550, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        },
+        {
+            "id": 9, "name": "CS2 9", "jogo": 1, "time": 1, "status": 1, "preco": 15000, "dataInicio": [2022, 0, 1, 12, 30, 45], "dataFim": [2022, 0, 11, 15, 32, 33]
+        }
+    ]   
   }
